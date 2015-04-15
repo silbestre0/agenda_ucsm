@@ -1,0 +1,95 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp" >
+
+        <ImageButton
+            android:id="@+id/addMateria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/icactionnewevent2"
+            android:layout_weight="1" />
+
+         <ImageButton
+            android:id="@+id/deleteMateria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/icactiondiscard2"
+             android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/verMateria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/icactionedit2"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:id="@+id/Atras"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/icactionpreviousitem2"
+            android:layout_weight="1" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Agregar"
+            android:textColor="#cccc99"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+       
+        <TextView
+            android:id="@+id/textViewDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Eliminar"
+            android:textColor="#cccc99"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/TextEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Editar"
+            android:textColor="#cccc99"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Atras"
+            android:textColor="#cccc99"
+            android:textSize="20sp" />
+
+
+
+    </TableRow>
+
+</TableLayout>
